@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+.promo {
+    background-image: url(./img/1920x1080/01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.promo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    gap: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.fade {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+h1 {
+    font-size: 85px;
+    color: white;
+}
+
+p.promo-text {
+    color: white;
+    font-size: 30px;
+}
+
+.promo-button {
+    padding: 15px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.promo-button img {
+    width: 15px;
+    margin-right: 20px;
+}
+
+.text-center {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #52576d;
+}
+
+p.small.greey.text {
+    font-size: small;
+    color: #52576d;
+}
+
+.row-content {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.img-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+    gap: 20px;
+}
+
+.workspace {
+    color: #515463;
+}
+
+.minimalism {
+    color: #515463;
+}
+
+.cleant-style {
+    color: #515463;
+}
+.read-more {
+    text-decoration: none;
+    font-size: x-large;
+    color: #86878b;
+}
+
+.akvamarin {
+    color: #4ca3ad;
+    font-size: xx-large;
+}
+
+.work-photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-photos img {
+    width: 49%;
+}
+
+.bg-servis {
+    background: #fafafa;
+    padding: 40px 0px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* background-color: #fafafa; */
+}
+
+.content {
+    color: #575668;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #ffffff;
+    padding: 30px;
+    gap: 20px;
+    transition: all .25s;
+}
+
+.content:hover {
+    color: #ffffff;
+    background-color: #17bed1;
+}
+
+.content:hover img {
+    filter: invert(100%);
+    opacity: 1;
+}
+
+.row-service {
+    display: flex;
+    gap: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.row-service img {
+    width: 25px;
+    opacity: .4;
+}
+
+.phone-img {
+    background-image: url(./img/1920x1080/02.jpg);
+    background-position: 80% 0%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    color: #ffffff;
+}
+
+.displey-title {
+    font-size: XXX-LARGE;
+}
+
+.displey-text {
+    font-size: smaller;
+    padding: 0 280px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.gallery {
+    display: flex;
+    gap: 5px;
+}
+
+.item {
+    gap: 2px;
+}
+.starter-pack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    margin: 100px 0;
+    gap: 25px;
+}
+.paid-subscriptions {
+    background-color: #ffffff;
+    height: 300px;
+    width: 250px;
+    padding: 30px;
+    gap: 10px;
+}
+.paid-subscriptions:hover {
+    height: 350px;
+    transition: all .25s;
+}
+.paid-subscriptions img {
+    width: 25px;
+    opacity: .4;
+}
+.buy-button {
+    background-color: #fafafa;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.customer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 10px;
+}
+.text-info {
+    display: flex;
+    gap: 10px;
+}
+.milner {
+    display: flex;
+}
+.partners {
+    display: flex;
+    margin: 40PX;
+    gap: 50px;
+}
+
+.contact {
+    list-style-type: none;
+
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.made {
+    display: flex;
+}
+.grey-text {
+    color: #7e7f84;
+}
